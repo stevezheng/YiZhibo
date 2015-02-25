@@ -1,3 +1,4 @@
+AV.initialize('51xzac9ouarxj3y9mruvfvgnr383g2nduat01f3svyi1yu4u', '7bg9987c94z5w0xrvh4n0k2afyfd89mxiks9d8i7t4uwb6x9');
 // Ionic Starter App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
