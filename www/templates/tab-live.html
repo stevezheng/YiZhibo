@@ -18,6 +18,26 @@
   <ion-content class="has-tabs-top">
     <div class="list">
       <div class="item item-divider item-positive">
+        02月21日 星期六
+      </div>
+
+      <a class="row item" href="#/live/4343122343" ng-repeat="game in games">
+        <div class="col-20">{{game.get('game_time')}}</div>
+        <div class="col-80">
+          <p>
+            英超第26轮
+          </p>
+          <p style="color: #000000;">
+            {{game.get('home_team')}} - {{game.get('guest_team')}}
+          </p>
+          <p>
+            等待更新
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="list">
+      <div class="item item-divider item-positive">
         02月19日 星期四
       </div>
 

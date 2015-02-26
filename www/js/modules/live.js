@@ -9,6 +9,8 @@ angular.module('YiZhibo.live', ['ionic'])
       success: function(res) {
         // Do something with the returned AV.Object values
         console.log(res);
+        $scope.games = res;
+        $ionicLoading.hide();
       },
       error: function(error) {
         console.log("Error: " + error.code + " " + error.message);
